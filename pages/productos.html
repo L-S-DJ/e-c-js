@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Productos</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Productos</h1>
+
+
+
+    </header>
+    <main>
+
+        <div class="carrito">
+
+            <div class="filtros">
+                <div class="shampoo">
+                    <input type="checkbox" id="shampoo" name="shampoo">
+                    <label for="shampoo">Shampoo</label>
+                </div>
+                <div class="jabon">
+                    <input type="checkbox" id="jabon" name="jabon">
+                    <label for="jabon">Jabón</label>
+                </div>
+            
+                <div class="filtrar">
+                    <button class="btn-filtrar">Filtrar</button>
+                </div>
+            </div>
+            
+
+            <div class="btn-c">
+                <button id="botonCarrito">Carrito</button>
+
+
+                <div id="contenedorCarrito" class="carrito oculta">
+                    <h2>Carrito</h2>
+                    <div id="itemsCarrito"></div>
+                    <button id="botonIrAPagar">Ir a Pagar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="contenedor_productos"></div>
+    </main>
+    <script src="../index.js"></script>
+</body>
+
+</html>
